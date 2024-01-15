@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+  body {
+    font-family: "Mulish", sans-serif;
+    max-width: 85%;
+    border-bottom: 2px solid saddlebrown;
+    margin: 0 auto;
+  }
+  .nav-title {
+    font-size: 1rem;
+    font-weight: 800;
+    gap: 0.7rem;
+  }
+  .nav-title img {
+    width: 2.2rem;
+  }
+  .nav-menu span {
+    display: inline;
+  }
+  .nav-menu li {
+    display: none;
+  }
+}
