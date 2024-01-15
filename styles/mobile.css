@@ -1,9 +1,15 @@
 @media screen and (max-width: 600px) {
+  /* -----------------------*/
+  /* -------NAV STYLES----- */
+  /* ---------------------- */
   body {
     font-family: "Mulish", sans-serif;
-    max-width: 85%;
-    border-bottom: 2px solid saddlebrown;
+    max-width: 87%;
     margin: 0 auto;
+  }
+  nav {
+    margin: 1.125rem 0;
+    width: 100%;
   }
   .nav-title {
     font-size: 1rem;
@@ -18,5 +24,137 @@
   }
   .nav-menu li {
     display: none;
+  }
+  /* -----------------------*/
+  /* -------BANNER STYLES----- */
+  /* ---------------------- */
+  .banner {
+    max-width: 73.125rem;
+    width: 100%;
+    height: 31.25rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner h2 {
+    font-size: 1.375rem;
+  }
+  .banner p {
+    font-size: 0.875rem;
+    line-height: 1.3125rem; /* 150% */
+    width: 100%;
+  }
+  .banner div {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    padding: 1rem;
+    width: 78%;
+    border-radius: 8px;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .banner #text {
+    width: 95%;
+  }
+  #when,
+  #select-type {
+    padding: 1rem 0rem 1rem 1rem;
+    width: 100%;
+  }
+  .banner button {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  /* -----------------------*/
+  /* --POPULAR TOURS STYLES-- */
+  /* ---------------------- */
+  .popular-tours {
+    width: 100%;
+    flex-direction: column;
+    margin: 1.25rem auto;
+    gap: 1.5rem;
+  }
+  .popular-tours-content h2 {
+    font-size: 1.25rem;
+  }
+  .popular-tours-content p,
+  li {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem; /* 162.5% */
+  }
+  .popular-tours-content li {
+    margin-left: 1.25rem;
+  }
+  .popular-tours-content button {
+    margin-top: 1.5rem;
+  }
+  .popular-tours-img img {
+    width: 100%;
+  }
+  /* -----------------------*/
+  /* ---DESTINATION STYLES-- */
+  /* ---------------------- */
+  .destination {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    margin: 1.25rem auto;
+    gap: 1rem;
+  }
+  .destination-content {
+    display: grid;
+    gap: 1rem;
+  }
+  .destination-info h2 {
+    font-size: 1.25rem;
+  }
+  .destination-content p {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .maldives {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .indonesia {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .srilanka {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .north-america {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .kashmir {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .bangladesh {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .bandarban {
+    width: 100%;
+    height: 11rem;
+    background-size: cover;
+  }
+  .destination-info p {
+    margin-top: 1.25rem;
   }
 }
