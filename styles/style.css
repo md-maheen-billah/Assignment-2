@@ -79,12 +79,7 @@ nav {
 .banner {
   max-width: 73.125rem;
   width: 81.25%;
-  background: linear-gradient(
-      180deg,
-      rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    ),
-    url("/images/Group13.png");
+  background: url("/images/Group13.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
