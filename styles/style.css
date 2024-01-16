@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Mulish", sans-serif;
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
 }
 main {
@@ -399,6 +399,168 @@ li {
   line-height: normal;
 }
 .why-us-content-list p {
+  margin-top: 1rem;
+}
+/* -----------------------*/
+/* ---NEWSLETTER STYLES-- */
+/* ---------------------- */
+.newsletter {
+  width: 100%;
+  margin: 6.25rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.newsletter-content {
+  padding: 2.5rem;
+}
+.newsletter-content h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-content p {
+  margin-top: 1rem;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.newsletter-content hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  height: 1px;
+  border: 0;
+  background: rgba(19, 19, 24, 0.1);
+}
+.newsletter-content input {
+  margin-top: 1rem;
+  text-indent: 1.25rem;
+  border: 0;
+  display: block;
+  width: 100%;
+  height: 3.25rem;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-content {
+  border-radius: 1rem;
+  border: 1px solid #ff5400;
+}
+.newsletter-img {
+  background: url("../images/Rectangle\ 8\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 42rem;
+  height: 26.375rem;
+}
+.newsletter-img .sticker {
+  position: relative;
+  left: 50%;
+  top: 60%;
+  border-radius: 16px;
+  background: #ff5400;
+  width: 20.25rem;
+  height: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-19.628deg);
+}
+.newsletter-img .sticker p {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.newsletter-img .sticker h3 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-content button {
+  margin-top: 1.5rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: 0;
+}
+/* -----------------------*/
+/* ---REVIEWS STYLES-- */
+/* ---------------------- */
+.reviews {
+  max-width: 73.125rem;
+  width: 100%;
+  margin: 6.25rem auto;
+}
+.reviews > h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+}
+.cards {
+  padding: 1.0625rem 0.8rem;
+  border-radius: 0.3125rem;
+  border: 3px solid transparent;
+  background: #fff;
+  box-shadow: 0rem 0rem 2.5rem 0rem rgba(0, 0, 0, 0.15);
+}
+.cards:hover {
+  border: 3px solid orangered;
+}
+.cards img {
+  width: 100%;
+}
+.cards h2 {
+  margin-top: 2rem;
+  color: #131318;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cards > p {
+  color: #787885;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.01575rem;
+  height: 3.75rem;
+  width: 20rem;
   margin-top: 1rem;
 }
 /* -----------------------*/
