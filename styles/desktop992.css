@@ -509,7 +509,7 @@
   .simple-contents li {
     margin-top: 0.2rem;
   }
-  .simple-img > img {
+  .simple-img {
     width: 100%;
   }
   /* -----------------------*/

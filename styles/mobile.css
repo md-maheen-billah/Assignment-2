@@ -311,8 +311,9 @@
   .simple-contents > li {
     margin-top: 0.5rem;
   }
-  .simple-img > img {
+  .simple-img {
     width: 100%;
+    height: 12.5rem;
   }
   /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */
