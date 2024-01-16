@@ -513,14 +513,19 @@ li {
 /* -----------------------*/
 /* ---REVIEWS STYLES-- */
 /* ---------------------- */
+.reviews p {
+  text-align: center;
+  margin-bottom: 3rem; /* 162.5% */
+}
 .reviews {
   max-width: 73.125rem;
   width: 100%;
   margin: 6.25rem auto;
+  text-align: center;
 }
 .reviews > h2 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   margin-top: 2rem;
 }
 .reviews-grid {

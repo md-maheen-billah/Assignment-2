@@ -301,6 +301,65 @@
     border: 0;
   }
   /* -----------------------*/
+  /* ---REVIEWS STYLES-- */
+  /* ---------------------- */
+  .reviews p {
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem; /* 162.5% */
+  }
+  .reviews {
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem auto;
+    gap: 1rem;
+  }
+  .reviews > h2 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .reviews-grid {
+    grid-template-columns: repeat(1, 100%);
+    gap: 1.875rem;
+  }
+  .cards {
+    padding: 1.0625rem 0.8rem;
+    border-radius: 0.3125rem;
+    border: 3px solid transparent;
+    background: #fff;
+    box-shadow: 0rem 0rem 2.5rem 0rem rgba(0, 0, 0, 0.15);
+  }
+  .cards:hover {
+    border: 3px solid orangered;
+  }
+  .cards img {
+    width: 100%;
+  }
+  .cards h2 {
+    margin-top: 2rem;
+    color: #131318;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cards > p {
+    color: #787885;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.01575rem;
+    height: 3.75rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  /* -----------------------*/
   /* ---FOOTER STYLES-- */
   /* ---------------------- */
   footer {
