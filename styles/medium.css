@@ -195,6 +195,72 @@
     height: 12rem;
   }
   /* -----------------------*/
+  /* -----DEALS STYLES----- */
+  /* ---------------------- */
+  .deals-discounts {
+    width: 100%;
+    margin: 1.5rem auto;
+  }
+  .deals-discounts > h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .deals-discounts > p {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+  .deals-outer-background1,
+  .deals-outer-background3 {
+    background: url("../images/Group\ 39.png");
+    width: 100%;
+    height: 31.25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+    border-radius: 16px;
+  }
+  .deals-outer-background2 {
+    background: url("../images/Group\ 40.png");
+    width: 100%;
+    height: 31.25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+    border-radius: 16px;
+  }
+  .deals-inner-background {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0rem;
+    width: 70%;
+    height: 18rem;
+    border-radius: 16px;
+    border: 2px solid #fff;
+  }
+  .deals-inner-background2 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    width: 70%;
+    height: 18rem;
+    border-radius: 16px;
+    border: 2px solid #fff;
+  }
+  .deals-inner-background .top-icons,
+  .deals-inner-background2 .top-icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */
   /* ---------------------- */
   .newsletter {
