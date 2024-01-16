@@ -510,7 +510,7 @@
     margin-top: 0.2rem;
   }
   .simple-img {
-    width: 100%;
+    background-size: cover;
   }
   /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */

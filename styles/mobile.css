@@ -312,7 +312,7 @@
     margin-top: 0.5rem;
   }
   .simple-img {
-    width: 100%;
+    background-size: cover;
     height: 12.5rem;
   }
   /* -----------------------*/
