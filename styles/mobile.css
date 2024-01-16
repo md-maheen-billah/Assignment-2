@@ -262,7 +262,58 @@
   .deal-button {
     display: none;
   }
-
+  /* -----------------------*/
+  /* -----SIMPLE STYLES----- */
+  /* ---------------------- */
+  .simple {
+    width: 100%;
+    margin: 1.5rem auto;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  .simple-contents {
+    display: flex;
+  }
+  .simple-contents h2 {
+    color: #131318;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .simple-contents p,
+  li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 162.5% */
+  }
+  .simple-contents > li {
+    margin-left: 1.25rem;
+  }
+  .simple-contents > button {
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 10.875rem;
+    height: 3.25rem;
+    border: 0;
+  }
+  .simple-contents > li {
+    margin-top: 0.5rem;
+  }
+  .simple-img > img {
+    width: 100%;
+  }
   /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */
   /* ---------------------- */

@@ -458,7 +458,60 @@
     font-weight: 400;
     line-height: 1.625rem; /* 162.5% */
   }
-
+  /* -----------------------*/
+  /* --SIMPLE STYLES-- */
+  /* ---------------------- */
+  .simple {
+    width: 81.25%;
+    display: flex;
+    margin: 3.5rem auto;
+    padding: 1rem 0 0;
+    gap: 1.5rem;
+  }
+  .simple-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .simple-contents h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .simple-contents p,
+  li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.7rem;
+    font-style: normal;
+    margin-top: 0.2rem;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+  }
+  .simple-contents li {
+    margin-left: 1.25rem;
+  }
+  .simple-contents button {
+    border-radius: 0.5rem;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+  }
+  .simple-contents li {
+    margin-top: 0.2rem;
+  }
+  .simple-img > img {
+    width: 100%;
+  }
   /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */
   /* ---------------------- */
