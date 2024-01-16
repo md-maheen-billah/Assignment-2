@@ -458,60 +458,7 @@
     font-weight: 400;
     line-height: 1.625rem; /* 162.5% */
   }
-  /* -----------------------*/
-  /* -----SIMPLE STYLES----- */
-  /* ---------------------- */
-  .simple {
-    width: 81.25%;
-    margin: 3.5rem auto;
-    display: flex;
-    gap: 1.25rem;
-  }
-  .simple-video {
-    border-radius: 16px;
-    overflow: hidden;
-    z-index: 1;
-    height: 400px;
-    width: 1200px;
-  }
-  .simple-contents h2 {
-    width: 28rem;
-    color: #131318;
-    font-family: Mulish;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 3.75rem; /* 150% */
-  }
-  .simple-contents p {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .simple-contents li {
-    margin-left: 1.25rem;
-    margin-top: 0.7rem;
-    color: #131318;
-    font-family: Mulish;
-    font-size: 0.7rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.625rem; /* 162.5% */
-  }
-  .simple button {
-    margin-top: 2rem;
-    border-radius: 0.5rem;
-    background: #ff5400;
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    width: 10.875rem;
-    height: 3.25rem;
-    border: 0;
-  }
+
   /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */
   /* ---------------------- */
