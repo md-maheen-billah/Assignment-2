@@ -260,6 +260,9 @@
     gap: 1rem;
     flex-wrap: wrap;
   }
+  .deal-button {
+    display: none;
+  }
   /* -----------------------*/
   /* ---NEWSLETTER STYLES-- */
   /* ---------------------- */
