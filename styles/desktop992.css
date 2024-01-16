@@ -1,0 +1,467 @@
+@media screen and (min-width: 992px) and (max-width: 1435px) {
+  /* -----------------------*/
+  /* -------NAV STYLES----- */
+  /* ---------------------- */
+  body {
+    font-family: "Mulish", sans-serif;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  .title-font {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .para-font {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+  }
+  /* -----------------------*/
+  /* -------NAV STYLES----- */
+  /* ---------------------- */
+  nav {
+    width: 81.25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.125rem auto;
+  }
+  .nav-title {
+    display: flex;
+    align-items: center;
+    gap: 1.039375rem;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .nav-title span {
+    color: #ff5400;
+  }
+  .nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+  }
+  .nav-menu li {
+    list-style: none;
+  }
+  .nav-menu li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .nav-menu #home {
+    color: #ff5400;
+    font-weight: 700;
+  }
+  .nav-menu span {
+    display: none;
+  }
+  /* -----------------------*/
+  /* -------BANNER STYLES----- */
+  /* ---------------------- */
+  .banner {
+    width: 81.25%;
+    background: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+      ),
+      url("../images/Group13.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    height: 21.5rem;
+    margin: 3.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .banner p {
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 57%;
+  }
+  .banner div {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 64.64%;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .banner #text {
+    border-radius: 8px;
+    background: #fff;
+    border: 0;
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 7rem;
+  }
+  #text::placeholder {
+    color: rgba(19, 19, 24, 0.5);
+  }
+  #when,
+  #select-type {
+    border-radius: 8px;
+    background: #fff;
+    border: 0;
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 7rem;
+  }
+  .banner button {
+    border-radius: 0.5rem;
+    background: #ff5400;
+    color: #fff;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  /* -----------------------*/
+  /* --POPULAR TOURS STYLES-- */
+  /* ---------------------- */
+  .popular-tours {
+    width: 81.25%;
+    display: flex;
+    margin: 3.5rem auto;
+    padding: 1rem 0 0;
+    gap: 1.5rem;
+  }
+  .popular-tours-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .popular-tours-content h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .popular-tours-content p,
+  li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+  }
+  .popular-tours-content li {
+    margin-left: 1.25rem;
+  }
+  .popular-tours-content button {
+    border-radius: 0.5rem;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+  }
+  .popular-tours-content li {
+    margin-top: 0.2rem;
+  }
+  /* -----------------------*/
+  /* ---DESTINATION STYLES-- */
+  /* ---------------------- */
+  .destination {
+    width: 81.25%;
+    margin: 3.5rem auto;
+    gap: 1rem;
+  }
+  .destination-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+  .destination-content p {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .maldives {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24.8rem;
+    height: 13rem;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 5.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .indonesia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 8.png");
+    width: 24.8rem;
+    height: 13rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .srilanka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 6.png");
+    width: 13rem;
+    height: 13rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .north-america {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 7.png");
+    width: 25rem;
+    height: 13rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .kashmir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 9.png");
+    width: 10.7rem;
+    height: 13rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .bangladesh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 11.png");
+    width: 20.8rem;
+    height: 13rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .bandarban {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42.0625rem;
+    height: 18.75rem;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../images/Rectangle\ 10.png");
+    width: 28.8rem;
+    height: 13rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .destination-info p {
+    margin-top: 0.7rem;
+  }
+  /* -----------------------*/
+  /* ---WHY US STYLES-- */
+  /* ---------------------- */
+  .why-us {
+    width: 81.25%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 3.5rem auto;
+    gap: 1.25rem;
+  }
+  .why-us-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .why-us-info p {
+    margin-top: 0.7rem;
+  }
+  .why-us-content-list {
+    padding: 2rem 2rem 0;
+    width: 40.5%;
+    text-align: left;
+    border-radius: 1rem;
+    height: 15rem;
+  }
+  .content-1 {
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+  }
+  .content-2 {
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+  }
+  .content-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  .why-us-content-list h3 {
+    margin-top: 1.5rem;
+    color: #131318;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .why-us-content-list p {
+    margin-top: 0.7;
+  }
+  /* -----------------------*/
+  /* ---FOOTER STYLES-- */
+  /* ---------------------- */
+  footer {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 3rem 12rem;
+    background: rgba(19, 19, 24, 0.05);
+  }
+  .footer-top {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .footer-title span {
+    color: #ff5400;
+  }
+  .footer-top p {
+    margin-top: 1rem;
+    padding: 0 3.8rem;
+  }
+  .footer-img {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    width: 10.895125rem;
+    font-size: 1.2em;
+  }
+
+  footer hr {
+    margin-top: 1.5rem;
+    border: 0;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.1);
+  }
+  .footer-rights {
+    color: #131318;
+    font-family: Inter;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}

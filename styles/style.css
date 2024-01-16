@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +6,10 @@
 body {
   font-family: "Mulish", sans-serif;
   max-width: 1440px;
+  margin: 0 auto;
+}
+main {
+  max-width: 1170px;
   margin: 0 auto;
 }
 .title-font {
@@ -27,7 +31,7 @@ body {
 /* ---------------------- */
 nav {
   max-width: 1170px;
-  width: 81.25%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +82,7 @@ nav {
 /* ---------------------- */
 .banner {
   max-width: 73.125rem;
-  width: 81.25%;
+  width: 100%;
   background: linear-gradient(
       180deg,
       rgba(19, 19, 24, 0.8) 0%,
@@ -173,7 +177,7 @@ nav {
 /* ---------------------- */
 .popular-tours {
   max-width: 73.125rem;
-  width: 81.25%;
+  width: 100%;
   display: flex;
   margin: 6.25rem auto;
   gap: 3.3125rem;
@@ -223,7 +227,7 @@ li {
 /* ---------------------- */
 .destination {
   max-width: 73.125rem;
-  width: 81.25%;
+  width: 100%;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -350,7 +354,7 @@ li {
 /* ---------------------- */
 .why-us {
   max-width: 73.125rem;
-  width: 81.25%;
+  width: 100%;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -396,4 +400,62 @@ li {
 }
 .why-us-content-list p {
   margin-top: 1rem;
+}
+/* -----------------------*/
+/* ---FOOTER STYLES-- */
+/* ---------------------- */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 6.875rem 17.75rem;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-top {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #131318;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-title span {
+  color: #ff5400;
+}
+.footer-top p {
+  margin-top: 1rem;
+  padding: 0 3.8rem;
+}
+.footer-img {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  width: 10.895125rem;
+  font-size: 1.5em;
+}
+
+footer hr {
+  margin-top: 1.5rem;
+  border: 0;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.footer-rights {
+  color: #131318;
+  font-family: Inter;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
