@@ -613,8 +613,16 @@ li {
   width: 100%;
   height: 26.5rem;
   border-radius: 1rem;
-  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
+  background: url("../images/pause.svg"), url("../images/time.png"),
+    url("../images/volume-x\ 1.svg"), url("../images/maximize\ 1.svg"),
+    url("../images/3dot.svg"),
+    linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
     url("../images/Group\ 40089.png");
+  background-repeat: no-repeat;
+  background-position: bottom 40px left 20px, bottom 42px left 60px,
+    bottom 40px right 100px, bottom 40px right 60px, bottom 40px right 20px,
+    center, center;
+  background-size: 20px, 30px, 20px, 20px, 20px, 20px 20px, cover, cover;
 }
 .simple-img p {
   color: #fff;

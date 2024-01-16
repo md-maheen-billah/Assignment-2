@@ -312,7 +312,10 @@
     margin-top: 0.5rem;
   }
   .simple-img {
-    background-size: cover;
+    background-position: bottom 20px left 20px, bottom 23px left 60px,
+      bottom 20px right 100px, bottom 20px right 60px, bottom 20px right 20px,
+      center, center;
+    background-size: 20px, 30px, 20px, 20px, 20px, 20px 20px, cover, cover;
     height: 12.5rem;
   }
   /* -----------------------*/
